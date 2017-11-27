@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			ul {
+				list-style: none;
+			}
+			
+			ul li {
+				float: left;
+				margin-left: 10px;
+			}
+			#a,#b,#c,#d{display: none;}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<ul>
+				<li id="l1" >aaa</li>
+				<li id="l2">bbb</li>
+				<li id="l3">ccc</li>
+				<li id="l4">ddd</li>
+			</ul>
+		</div>
+		
+			<br /> <div id="a">啥空间空间撒哦is阿何从is啊哈</div>
+			<div id="b" >打算不打算</div>
+			<div id="c">打算不打算</div>
+			<div id="d">啥哦哦发就点寿司的</div>
+			<script>
+			var a=	document.getElementById("a")
+			var b=	document.getElementById("b")
+			var c=	document.getElementById("c")
+			var d=	document.getElementById("d")
+			var l1=	document.getElementById("l1")
+			var l2=	document.getElementById("l2")
+			var l3=	document.getElementById("l3")
+			var l4=	document.getElementById("l4")
+			l1.onmouseover=function(){
+				a.style.display="block"
+				
+				
+			}
+				l1.onmouseout=function(){
+				a.style.display="none"
+				
+				
+			}
+				
+			</script>
+			
+		
+
+	</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Title</title>
+
+
+     <style>
+
+          #two {
+
+               width: 200px;
+               height: 200px;
+               background-color: red;
+               color: #ff5566;
+          }
+
+
+     </style>
+</head>
+<body>
+
+
+
+<button id="one">
+     点我yixia
+</button>
+
+<div id="two" style="height: 100px">
+
+所得税范德萨发水电费水电费水电费是的
+</div>
+
+
+  <script>
+
+     var one =   document.getElementById("one") ;
+
+     var two = document.getElementById("two") ;
+
+           one.onclick = function () {
+
+
+         //  获取 css 中 的属性 ,返回 一个 对象 ， 会把 这个 div 中的所有属性 都  封装 到 这个 对象中 ，然后 就可以 通过这个 对象.属性名
+
+          var obj =    getComputedStyle(two, null);
+
+          alert("宽"+obj.width + "高\t" + obj.height  + obj.color);
+
+
+
+         // 更改
+
+
+          two.style.background ="#fff445";
+
+       }
+
+
+  </script>
+
+      <!--1 获取到  html 中 div 的 颜色 ；还有 宽高  通过 提示 框  打印 -->
+      <!--2 更改  这个 颜色 为   蓝色 ；-->
+
+
+
+
+</body>
+</html>

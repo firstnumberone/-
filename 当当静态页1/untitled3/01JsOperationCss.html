@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+
+		<style>
+			#two {
+				width: 200px;
+				height: 200px;
+				background: red;
+			}
+		</style>
+
+		<!--ctrl + alt + l-->
+
+	</head>
+
+	<body>
+
+		<button id="one">
+     点我yixia
+</button>
+
+		<div id="two" style="height: 100px">
+
+		</div>
+
+		<script>
+			var one = document.getElementById("one");
+
+			var tt = document.getElementById("two");
+
+			one.onclick = function() {
+
+				//元素.style.属性名
+				var hei = tt.style.height;
+
+				alert(hei);
+			}
+		</script>
+
+	</body>
+
+</html>

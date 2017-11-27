@@ -1,0 +1,363 @@
+body {
+				margin: 0;
+			}
+			
+			#jiemian {
+				position: relative;
+				margin: 0 auto;
+				width: 960px;
+				height: 1350px;
+			}
+			
+			#top {
+				margin: 0 auto;
+				width: 960px;
+				height: 25px;
+				border: 1px solid;
+			}
+			
+			#topleft {
+				width: 500px;
+				margin-left: -35px;
+				margin-top: -7px;
+				float: left;
+				font-size: 13px;
+			}
+			
+			#topright {
+				margin-left: -35px;
+				margin-top: -7px;
+				float: right;
+				font-size: 13px;
+			}
+			
+			li {
+				float: left;
+				margin-right: 10px;
+			}
+			
+			a {
+				color: black;
+				
+			}
+			
+			#top2 {
+				height: 30px;
+				position: relative;
+				top: -40px;
+				left: 90px;
+				font-size: 15px;
+				font-weight: 600;
+			}
+			
+			#top22 {
+				height: 30px;
+				position: relative;
+				left: 650px;
+				bottom: 87px;
+				font-size: 12px;
+				font-weight: 600;
+			}
+			
+			#top22 li {
+				line-height: 30px;
+			}
+			
+			#shop {
+				background: url(当当静态页/images/dd_header_1_a.jpg);
+			}
+			
+			.cuxiao {
+				background: url(当当静态页/images/dd_header_2_a.jpg)
+			}
+			
+			.dangdang {
+				background: url(当当静态页/images/dd_header_3_a.jpg)
+			}
+			
+			#top3 {
+				width: 960px;
+				height: 30px;
+				position: relative;
+				bottom: 100px;
+				background-color: darkorange;
+				
+			}
+			
+			#top3 li a {
+				line-height: 30px;
+				
+				font-size: 13px;
+				color: white;
+				margin-right: 3px;
+			}
+			
+			#shurukuang {
+				background-color: #F2F2F3;
+				width: 960px;
+				height: 30px;
+				position: relative;
+				bottom: 100px;
+				line-height: 30px;
+				font-size: 15px;
+			}
+			
+			#photo1 {
+				position: relative;
+				bottom: 100px;
+			}
+			
+			#feilei {
+				width: 180px;
+				height: 40px;
+				position: relative;
+				bottom: 90px;
+				font-size: 14px;
+				border: 1px solid black;
+			}
+			
+			#waiyu {
+				background-color: peachpuff;
+			}
+			
+			#tushufenlei {
+				width: 180px;
+				border: 1px solid;
+				font-size: 13px;
+				position: relative;
+				bottom: 80px;
+			}
+			
+			#tushu {
+				font-size: 15px;
+				background-color: peachpuff;
+			}
+			
+			.juzhong {
+				text-align: center;
+			}
+			
+			.jiacu {
+				font-weight: 600;
+			}
+			
+			#righttxt {
+				width: 220px;
+				height: 505px;
+				position: absolute;
+				right: 0px;
+				top: 240px;
+				border: 1px solid black;
+			}
+			
+			#shuxun {
+				background-color: peachpuff;
+				font-size: 18px;
+				font-weight: 600;
+			}
+			
+			#shuxunkuaidi {
+				width: 220px;
+				height: 280px;
+				line-height: 24px;
+				
+			}
+		
+			#kaoyan {
+				color: red;
+			}
+			
+			.xuxian {
+				list-style: none;
+				text-align: center;
+				font-size: 13px;
+				border-bottom: dashed 1px black;
+			}
+			
+			#lunbotop {
+				position: absolute;
+				top: -10px;
+				right: 230px;
+				width: 540px;
+				height: 245px;
+			}
+			
+			#lunbozong {
+				width: 540px;
+				height: 280px;
+				
+				position: relative;
+				right: 550px;
+				bottom: 260px;
+			}
+			
+			#aaa {
+				width: 540px;
+				height: 30px;
+				background-color: #D8E4C6;
+			}
+			
+			#lishijiajiao {
+				position: relative;
+				bottom: 20px;
+				left: 120px;
+			}
+			
+			#more {
+				position: absolute;
+				top: 0px;
+				right: 0;
+			}
+			#tupian1{
+				width: 528px;
+				height: 250px;
+			}
+			#tupian1 dt{
+				float: left;
+				width: 90px;
+			}#tupian1 dd{ 
+				float: left;
+				width: 170px;
+				font-size: 13px;
+				margin: 0 0 17px 0;
+			}
+			#tupian1 a{color: blue;} 
+			#xiamian {
+				width: 540px;
+				height: 410px;
+				border: 1px black solid;
+				position: relative;
+				right: 550px;
+				top: -245px;
+			}
+			
+			#xiamiantop {
+				width: 540px;
+				height: 32px; line-height: 26px;float: left; 
+				background-color: #D8E4C6;
+			}
+			#bookbox{width: 528px;height: 380px;}
+			#bookbox dt{float: left;widows: 125px;height: 90px;margin-left: 30px;}
+			#bookbox dd{float: left;font-size: 13px;width: 125px;height: 40px;margin: 0 0 0 0;}
+			#bookbox dd a{color: blue;}
+			#rightxia {
+				width: 220px;
+				height: 410px;
+				position: absolute;
+				top: 520px;
+				border: 1px black solid;
+			}
+			
+			#rightxiatop {
+				width: 220px;
+				height: 27px;
+				background-color: #518700
+			}
+			
+			#lizhi11 {
+				width: 220px;
+				height: 20px;
+				background-color: #BDC1C4;
+			}
+			
+			.lizhi {
+				margin: 0px;
+				background: url(当当静态页/images/dd_seven_bg1.jpg);
+				margin-left: 4px;
+				font-size: 14px;
+			}
+			
+			#bbb {
+				float: left;
+				width: 22px;
+				height: 380px;
+				position: relative;
+				bottom: 10px;
+				left:8px;
+				
+			}
+			#bbb dt{
+				width: 22px;
+				height: 75px;
+			}
+			#bbb dd{
+				width: 22px;
+				height: 25px;
+				margin: 0;
+			}
+			#bbb dd a{color: blue;}
+			#ccc {
+				float: left;
+				width: 175px;
+				height: 375px;
+				/*position: relative;
+				bottom: 70px;
+				left: -10px;*/
+			}
+			#ccc dt{
+				float: left;
+				width: 55px;
+			}	
+			#ccc dl{
+				margin: 0;
+			}
+			#ccc dd{ 
+				margin: 0;
+				float: left;
+				width: 120px;
+				height: 80px;
+				font-size:12px ;
+			}
+			#ccc a{ color: blue;
+				font-size: 15px;
+				margin-top: 2px;
+			}
+			#tubiao2 {
+				position: relative;
+				top: 40px; left: 10px;
+			}
+			
+			#ddd {
+				width: 220px;
+				height: 70px;
+				position: relative;
+				bottom: 60px;
+				left: -10px;
+			}
+			
+			#tubiao3 {
+				position: relative;
+				bottom: 20px;
+				right: 210px;
+			}
+			
+			#bbb dd {
+				float: left;
+			}
+			
+			#bbb dt {
+				float: left;
+				font-size: 11px;
+			}
+			#ggg{position: relative;bottom: 50px;left: 10px;font-size: 14px;}
+			#bottom {
+				width: 360px;
+				height: 25px;
+				position: absolute;
+				right: 310px;
+				bottom: -500px;
+			}
+			
+			.zuixiamian {
+				font-size: 13px;
+				color: #9B2B0F;
+			}
+			
+			#banquan {
+				width: 615px;
+				height: 60px;
+				position: absolute;
+				right: 200px;
+				top: 1000px;
+				font-size: 11px;
+			}
